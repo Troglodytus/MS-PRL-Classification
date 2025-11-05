@@ -1,0 +1,6 @@
+eval "$(ssh-agent -s)"
+ssh-add -l || true
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+git add -A && git commit -m "." && git push --progress -v origin PhD
+
