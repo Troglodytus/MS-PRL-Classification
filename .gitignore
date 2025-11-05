@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / data / logs
+.ipynb_checkpoints/
+.DS_Store
+*.log
+logs/
+checkpoints/
+
+# Build/packaging
+build/
+dist/
+
+# Large data artifacts
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+*.npz
+*.npy
+
+# IDEs
+.vscode/
+.idea/
+
+# Excel temp files
+~$*.xlsx
